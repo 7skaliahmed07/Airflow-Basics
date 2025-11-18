@@ -1,0 +1,17 @@
+apache-airflow==2.10.4
+
+# Providers (set based on the DAGs in this repo)
+apache-airflow-providers-postgres
+apache-airflow-providers-sqlite
+apache-airflow-providers-cncf-kubernetes
+apache-airflow-providers-amazon
+apache-airflow-providers-google
+apache-airflow-providers-docker
+
+# Utility libraries for DAG tasks
+pandas
+requests
+python-dotenv
+
+# For Spark integration (optional)
+pyspark
