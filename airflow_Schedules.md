@@ -5,8 +5,8 @@
 # -----------------------------------------------------------------------------
 
 # HOURLY SCHEDULES
-"0 * * * *"        # Every hour at minute 0
-"30 * * * *"       # Every hour at minute 30
+"0 * * * *"        # Every hour at minute 0 (e.g., 1:00, 2:00)
+"30 * * * *"       # Every hour at minute 30 (e.g., 1:30, 2:30)
 "*/15 * * * *"     # Every 15 minutes
 
 # DAILY SCHEDULES
